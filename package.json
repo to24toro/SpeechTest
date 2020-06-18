@@ -1,0 +1,32 @@
+{
+  "name": "Othello",
+  "version": "1.0.0",
+  "description": "My tremendous Nuxt.js project",
+  "author": "Ueda",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^4.1.0",
+    "@nuxtjs/axios": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.9",
+    "nuxt": "^2.12.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
